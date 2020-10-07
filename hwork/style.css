@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: teal;
+}
+
+form,
+.output {
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.output {
+    display: none;
+}
+
+input:last-child {
+    background-color: lightgreen;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input:last-child:hover {
+    cursor: pointer;
+}
