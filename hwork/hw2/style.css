@@ -11,10 +11,13 @@ form,
     background-color: #FFF;
     border-radius: 20px;
     padding: 20px;
+    margin: auto;
     margin-bottom: 20px;
+    max-width: 900px;
 }
 
-input:last-child {
+input#submit,
+button {
     background-color: lightgreen;
     border: none;
     outline: none;
@@ -22,7 +25,8 @@ input:last-child {
     border-radius: 5px;
 }
 
-input:last-child:hover {
+input#submit:hover,
+button:hover {
     cursor: pointer;
     background-color: greenyellow;
 }
