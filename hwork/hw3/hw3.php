@@ -94,10 +94,10 @@
     // Sort elements in array
     // sort($assoc_arr); // Default sort (asc). Loses keys
     // rsort($assoc_arr); // Reverse sort (desc). Loses keys
-    // asort($assoc_arr); // Default sort that keeps index association. Loses keys
-    // arsort($assoc_arr); // Reverse sort that keeps index association. Loses keys
-    ksort($assoc_arr); // Default sort by key value
-    krsort($assoc_arr); // Reverse sort by key value
+    // asort($assoc_arr); // Default sort that preserves association.
+    // arsort($assoc_arr); // Reverse sort that preserves association.
+    // ksort($assoc_arr); // Default sort by key value
+    // krsort($assoc_arr); // Reverse sort by key value
 
     // Return sum of elements in array
     $assoc_numArr = ['1' => 1, '2' => 5, '3' => 7, '4' => 8, '5' => 12, '6' => 14];
