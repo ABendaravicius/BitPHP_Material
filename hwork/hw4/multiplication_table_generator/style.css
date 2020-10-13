@@ -68,8 +68,8 @@ tbody tr:hover {
 td, th {
     position: relative;
     font-size: 1.15rem;
-    padding: 10px 0;
-    width: 50px;
+    padding: 10px 5px;
+    min-width: 50px;
     text-align: center;
     vertical-align: middle;
 }
